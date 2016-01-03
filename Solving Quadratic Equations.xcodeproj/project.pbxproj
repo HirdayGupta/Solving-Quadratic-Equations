@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF4BA7681C39B18B0016F055 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4BA7671C39B18B0016F055 /* AppDelegate.swift */; };
+		BF4BA76A1C39B18B0016F055 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4BA7691C39B18B0016F055 /* ViewController.swift */; };
+		BF4BA76D1C39B18B0016F055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4BA76B1C39B18B0016F055 /* Main.storyboard */; };
+		BF4BA7701C39B18B0016F055 /* Solving_Quadratic_Equations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF4BA76E1C39B18B0016F055 /* Solving_Quadratic_Equations.xcdatamodeld */; };
+		BF4BA7721C39B18B0016F055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4BA7711C39B18B0016F055 /* Assets.xcassets */; };
+		BF4BA7751C39B18B0016F055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4BA7731C39B18B0016F055 /* LaunchScreen.storyboard */; };
+		BF4BA7801C39B18B0016F055 /* Solving_Quadratic_EquationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4BA77F1C39B18B0016F055 /* Solving_Quadratic_EquationsTests.swift */; };
+		BF4BA78B1C39B18B0016F055 /* Solving_Quadratic_EquationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4BA78A1C39B18B0016F055 /* Solving_Quadratic_EquationsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF4BA77C1C39B18B0016F055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF4BA75C1C39B18B0016F055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF4BA7631C39B18B0016F055;
+			remoteInfo = "Solving Quadratic Equations";
+		};
+		BF4BA7871C39B18B0016F055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF4BA75C1C39B18B0016F055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF4BA7631C39B18B0016F055;
+			remoteInfo = "Solving Quadratic Equations";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF4BA7641C39B18B0016F055 /* Solving Quadratic Equations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solving Quadratic Equations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4BA7671C39B18B0016F055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF4BA7691C39B18B0016F055 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF4BA76C1C39B18B0016F055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF4BA76F1C39B18B0016F055 /* Solving_Quadratic_Equations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Solving_Quadratic_Equations.xcdatamodel; sourceTree = "<group>"; };
+		BF4BA7711C39B18B0016F055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF4BA7741C39B18B0016F055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF4BA7761C39B18B0016F055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF4BA77B1C39B18B0016F055 /* Solving Quadratic EquationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solving Quadratic EquationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4BA77F1C39B18B0016F055 /* Solving_Quadratic_EquationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solving_Quadratic_EquationsTests.swift; sourceTree = "<group>"; };
+		BF4BA7811C39B18B0016F055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF4BA7861C39B18B0016F055 /* Solving Quadratic EquationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solving Quadratic EquationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4BA78A1C39B18B0016F055 /* Solving_Quadratic_EquationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solving_Quadratic_EquationsUITests.swift; sourceTree = "<group>"; };
+		BF4BA78C1C39B18B0016F055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF4BA7611C39B18B0016F055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4BA7781C39B18B0016F055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4BA7831C39B18B0016F055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF4BA75B1C39B18B0016F055 = {
+			isa = PBXGroup;
+			children = (
+				BF4BA7661C39B18B0016F055 /* Solving Quadratic Equations */,
+				BF4BA77E1C39B18B0016F055 /* Solving Quadratic EquationsTests */,
+				BF4BA7891C39B18B0016F055 /* Solving Quadratic EquationsUITests */,
+				BF4BA7651C39B18B0016F055 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF4BA7651C39B18B0016F055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF4BA7641C39B18B0016F055 /* Solving Quadratic Equations.app */,
+				BF4BA77B1C39B18B0016F055 /* Solving Quadratic EquationsTests.xctest */,
+				BF4BA7861C39B18B0016F055 /* Solving Quadratic EquationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF4BA7661C39B18B0016F055 /* Solving Quadratic Equations */ = {
+			isa = PBXGroup;
+			children = (
+				BF4BA7671C39B18B0016F055 /* AppDelegate.swift */,
+				BF4BA7691C39B18B0016F055 /* ViewController.swift */,
+				BF4BA76B1C39B18B0016F055 /* Main.storyboard */,
+				BF4BA7711C39B18B0016F055 /* Assets.xcassets */,
+				BF4BA7731C39B18B0016F055 /* LaunchScreen.storyboard */,
+				BF4BA7761C39B18B0016F055 /* Info.plist */,
+				BF4BA76E1C39B18B0016F055 /* Solving_Quadratic_Equations.xcdatamodeld */,
+			);
+			path = "Solving Quadratic Equations";
+			sourceTree = "<group>";
+		};
+		BF4BA77E1C39B18B0016F055 /* Solving Quadratic EquationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF4BA77F1C39B18B0016F055 /* Solving_Quadratic_EquationsTests.swift */,
+				BF4BA7811C39B18B0016F055 /* Info.plist */,
+			);
+			path = "Solving Quadratic EquationsTests";
+			sourceTree = "<group>";
+		};
+		BF4BA7891C39B18B0016F055 /* Solving Quadratic EquationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF4BA78A1C39B18B0016F055 /* Solving_Quadratic_EquationsUITests.swift */,
+				BF4BA78C1C39B18B0016F055 /* Info.plist */,
+			);
+			path = "Solving Quadratic EquationsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF4BA7631C39B18B0016F055 /* Solving Quadratic Equations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF4BA78F1C39B18B0016F055 /* Build configuration list for PBXNativeTarget "Solving Quadratic Equations" */;
+			buildPhases = (
+				BF4BA7601C39B18B0016F055 /* Sources */,
+				BF4BA7611C39B18B0016F055 /* Frameworks */,
+				BF4BA7621C39B18B0016F055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Solving Quadratic Equations";
+			productName = "Solving Quadratic Equations";
+			productReference = BF4BA7641C39B18B0016F055 /* Solving Quadratic Equations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF4BA77A1C39B18B0016F055 /* Solving Quadratic EquationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF4BA7921C39B18B0016F055 /* Build configuration list for PBXNativeTarget "Solving Quadratic EquationsTests" */;
+			buildPhases = (
+				BF4BA7771C39B18B0016F055 /* Sources */,
+				BF4BA7781C39B18B0016F055 /* Frameworks */,
+				BF4BA7791C39B18B0016F055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF4BA77D1C39B18B0016F055 /* PBXTargetDependency */,
+			);
+			name = "Solving Quadratic EquationsTests";
+			productName = "Solving Quadratic EquationsTests";
+			productReference = BF4BA77B1C39B18B0016F055 /* Solving Quadratic EquationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF4BA7851C39B18B0016F055 /* Solving Quadratic EquationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF4BA7951C39B18B0016F055 /* Build configuration list for PBXNativeTarget "Solving Quadratic EquationsUITests" */;
+			buildPhases = (
+				BF4BA7821C39B18B0016F055 /* Sources */,
+				BF4BA7831C39B18B0016F055 /* Frameworks */,
+				BF4BA7841C39B18B0016F055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF4BA7881C39B18B0016F055 /* PBXTargetDependency */,
+			);
+			name = "Solving Quadratic EquationsUITests";
+			productName = "Solving Quadratic EquationsUITests";
+			productReference = BF4BA7861C39B18B0016F055 /* Solving Quadratic EquationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF4BA75C1C39B18B0016F055 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Hirday Gupta";
+				TargetAttributes = {
+					BF4BA7631C39B18B0016F055 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					BF4BA77A1C39B18B0016F055 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = BF4BA7631C39B18B0016F055;
+					};
+					BF4BA7851C39B18B0016F055 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = BF4BA7631C39B18B0016F055;
+					};
+				};
+			};
+			buildConfigurationList = BF4BA75F1C39B18B0016F055 /* Build configuration list for PBXProject "Solving Quadratic Equations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF4BA75B1C39B18B0016F055;
+			productRefGroup = BF4BA7651C39B18B0016F055 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF4BA7631C39B18B0016F055 /* Solving Quadratic Equations */,
+				BF4BA77A1C39B18B0016F055 /* Solving Quadratic EquationsTests */,
+				BF4BA7851C39B18B0016F055 /* Solving Quadratic EquationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF4BA7621C39B18B0016F055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4BA7751C39B18B0016F055 /* LaunchScreen.storyboard in Resources */,
+				BF4BA7721C39B18B0016F055 /* Assets.xcassets in Resources */,
+				BF4BA76D1C39B18B0016F055 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4BA7791C39B18B0016F055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4BA7841C39B18B0016F055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF4BA7601C39B18B0016F055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4BA7701C39B18B0016F055 /* Solving_Quadratic_Equations.xcdatamodeld in Sources */,
+				BF4BA76A1C39B18B0016F055 /* ViewController.swift in Sources */,
+				BF4BA7681C39B18B0016F055 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4BA7771C39B18B0016F055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4BA7801C39B18B0016F055 /* Solving_Quadratic_EquationsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4BA7821C39B18B0016F055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4BA78B1C39B18B0016F055 /* Solving_Quadratic_EquationsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF4BA77D1C39B18B0016F055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF4BA7631C39B18B0016F055 /* Solving Quadratic Equations */;
+			targetProxy = BF4BA77C1C39B18B0016F055 /* PBXContainerItemProxy */;
+		};
+		BF4BA7881C39B18B0016F055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF4BA7631C39B18B0016F055 /* Solving Quadratic Equations */;
+			targetProxy = BF4BA7871C39B18B0016F055 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF4BA76B1C39B18B0016F055 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF4BA76C1C39B18B0016F055 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF4BA7731C39B18B0016F055 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF4BA7741C39B18B0016F055 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF4BA78D1C39B18B0016F055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF4BA78E1C39B18B0016F055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF4BA7901C39B18B0016F055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Solving Quadratic Equations/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AppsByHirdayGupta.Solving-Quadratic-Equations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF4BA7911C39B18B0016F055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Solving Quadratic Equations/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AppsByHirdayGupta.Solving-Quadratic-Equations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF4BA7931C39B18B0016F055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Solving Quadratic EquationsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AppsByHirdayGupta.Solving-Quadratic-EquationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solving Quadratic Equations.app/Solving Quadratic Equations";
+			};
+			name = Debug;
+		};
+		BF4BA7941C39B18B0016F055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Solving Quadratic EquationsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AppsByHirdayGupta.Solving-Quadratic-EquationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solving Quadratic Equations.app/Solving Quadratic Equations";
+			};
+			name = Release;
+		};
+		BF4BA7961C39B18B0016F055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Solving Quadratic EquationsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AppsByHirdayGupta.Solving-Quadratic-EquationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Solving Quadratic Equations";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BF4BA7971C39B18B0016F055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Solving Quadratic EquationsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AppsByHirdayGupta.Solving-Quadratic-EquationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Solving Quadratic Equations";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF4BA75F1C39B18B0016F055 /* Build configuration list for PBXProject "Solving Quadratic Equations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF4BA78D1C39B18B0016F055 /* Debug */,
+				BF4BA78E1C39B18B0016F055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF4BA78F1C39B18B0016F055 /* Build configuration list for PBXNativeTarget "Solving Quadratic Equations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF4BA7901C39B18B0016F055 /* Debug */,
+				BF4BA7911C39B18B0016F055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF4BA7921C39B18B0016F055 /* Build configuration list for PBXNativeTarget "Solving Quadratic EquationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF4BA7931C39B18B0016F055 /* Debug */,
+				BF4BA7941C39B18B0016F055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF4BA7951C39B18B0016F055 /* Build configuration list for PBXNativeTarget "Solving Quadratic EquationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF4BA7961C39B18B0016F055 /* Debug */,
+				BF4BA7971C39B18B0016F055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF4BA76E1C39B18B0016F055 /* Solving_Quadratic_Equations.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF4BA76F1C39B18B0016F055 /* Solving_Quadratic_Equations.xcdatamodel */,
+			);
+			currentVersion = BF4BA76F1C39B18B0016F055 /* Solving_Quadratic_Equations.xcdatamodel */;
+			path = Solving_Quadratic_Equations.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF4BA75C1C39B18B0016F055 /* Project object */;
+}

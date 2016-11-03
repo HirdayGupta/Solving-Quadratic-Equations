@@ -1,5 +1,7 @@
 # Solving-Quadratic-Equations
 Source code for my iOS App, 'The Quadratic Solver'
+
+# App Description
 The Quadratic Solver was designed with the purpose of not only assisting high school and middle school students in doing their homework but also understanding exactly how to arrive at the solutions. 
 
 The input method and equation parser allows equations of any form, and takes into account both sides of the equality sign, so the student can enter the equation exactly as they see it in the book. The results too will be given in the same format as the textbook. Explicit instructions on how to use the app have been included.
